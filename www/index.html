@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Meta and shit -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collotron</title>
+    <link rel="shortcut icon" href="assets/x30.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" media="all">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>COLLOTRON</h1> 
+        <aside>Algorithm-based collage.</aside>
+    </header>
+
+    <section>
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+            </div>
+        </form>
+        <button>Generate</button>
+    </section>
+
+    <footer>
+        <h3>How does it work?</h2>
+        <p>Simple explanation: magic.</p>
+        <p>Longer explanation: Collotron first computes "superpixels" from your images to find parts that have a nearly constant color and smooth shape. He will then sort them and use the most represented color to form a random background, on top of which he will paste a contrasting part.</p>
+        <p><a href="https://github.com/ppff/Collotron">Read the code on github.</a></p>
+    </footer>
+
+    <!-- We'll never share your data. Only we own it. --><!-- Also, DNT is supported and the last two bytes of your IP adress are cleared. -->
+    <script type="text/javascript" async="" defer="defer" src="Collotron_files/piwik.js"></script>
+    <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//collotron.art/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+@font-face 
+{
+    font-family: market_deco;
+    src: url(../assets/market_deco.ttf);
+}
+
+body
+{
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    line-height: 2;
+    font-size: 17px;
+    font-family: speculum, sans serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, input, button
+{
+    font-family: speculum, sans serif;
+    font-weight: 400;
+}
+
+header
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1
+{
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+section
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #fafafa;
+    text-align: center;
+}
+
+section h2
+{
+    margin-top: 0px;
+}
+
+footer
+{
+    background: #aaa;
+    color: #eee;
+    box-shadow: 0px 500px 0px 500px #aaa;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+input, button
+{
+    cursor: pointer;
+    text-align: center;
+    background: #eee;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input:hover, button:hover
+{
+    box-shadow: inset 0 1px 4px #ddd;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
+a:active
+{
+    color: inherit;
+}
